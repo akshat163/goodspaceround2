@@ -1,0 +1,217 @@
+@import "/src/components/Chatting/chat.css";
+
+
+/* HomePage Styling */
+.myheader {
+  background-color: black;
+ 
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: row;
+  opacity: 0.2;
+}
+
+h1 {
+  color: white;
+  font-family: "McLaren", cursive;
+  font-weight: 6000;
+}
+
+.HomePageWrapper {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+
+
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20vh;
+  margin-left: 50vw;
+  width: 30vw;
+  height: 50vh;
+  /* padding: 1%; */
+  align-items: center;
+  justify-content: center;
+  background-color: lightgrey;
+  
+  
+  border-radius: 1rem;
+  
+}
+.mainLabel {
+  justify-content: center;
+  /* margin-left: 40%; */
+  display: flex;
+  margin-top: 3%;
+  align-items: center;
+}
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  /* margin: 2%; */
+  padding-bottom: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.inputBox {
+  margin-bottom: 1%;
+  height: 3vh;
+  min-height: 30px;
+  border-radius: 0.5rem;
+}
+.ButtOn {
+  height: 3vh;
+  min-height: 30px;
+}
+
+
+
+footer{
+  height: 1vh;
+  /* position:fixed; */
+  display: none;
+}
+
+/* Editor Page Styling */
+
+.mainWrap{
+  display: grid;
+  flex-wrap: column;
+  grid-template-columns: 60% 30% 10%;
+  /* grid-template-columns: 230px 1fr; */
+}
+
+.aside{
+  padding: 4%;
+  display: grid;
+  display: flex;
+  grid-template-rows: 5fr 1fr;
+  flex-direction: column;
+  height: auto;
+  overflow: auto;
+  overflow-x: scroll;
+  max-height: 100vh;
+}
+
+.asideInner{
+  flex: 1;
+}
+
+.connect {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.clientsList {
+  display: flex;
+  align-items:  center;
+  flex-wrap: wrap;
+  gap: 8%;
+}
+
+.client {
+  display: flex;
+  align-items:  center;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.userName {
+  margin-bottom: 1rem;
+}
+
+.logo {
+  border-bottom: 1px solid #880505;
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.logoImage {
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  /* transform: scale(0.2); */
+}
+
+.Themebtn {
+  cursor: pointer;
+  width: 98%;
+  padding: 2%;
+  margin: 1%;
+  font-size: 0.8rem;
+}
+
+.Copybtn {
+  cursor: pointer;
+  width: 98%;
+  padding: 2%;
+  margin: 1.5%;
+  font-size: 0.8rem;
+}
+
+.Leavebtn {
+  cursor: pointer;
+  width: 98%;
+  padding: 2%;
+  margin: 1%;
+  font-size: 0.8rem;
+  background-color: rgb(38, 187, 33);
+  
+}
+
+.Leavebtn:hover {
+  background-color: rgb(196, 24, 24);
+  
+}
+
+
+
+
+.chatWrap {
+  margin: 0.5vh;
+  border-radius: 1rem;
+  font-size: 0.85rem;
+  background: transparent;
+  overflow: auto;
+}
+
+@media screen and (max-width : 1010px) {
+  .formWrapper {
+    width: 60vw;
+  }
+
+  .chatWrap {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width : 600px) {
+  .formWrapper {
+    width: 80vw;
+  }
+
+  .aside {
+    font-size: 0.7rem;
+  }
+  .mainWrap {
+    grid-template-columns: 20% 50% 30%;
+  }
+}
+
+@media screen and (max-height: 500px){
+  .imageWrapper{
+    margin-top: 10px;
+  }
+}
+

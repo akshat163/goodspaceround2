@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7279edc5.css",
+    "main.js": "/static/js/main.3d824b06.js",
+    "static/js/787.4a70bc5a.chunk.js": "/static/js/787.4a70bc5a.chunk.js",
+    "static/media/DudeLight.png": "/static/media/DudeLight.cbae5ccac084a71ce9c0.png",
+    "index.html": "/index.html",
+    "main.7279edc5.css.map": "/static/css/main.7279edc5.css.map",
+    "main.3d824b06.js.map": "/static/js/main.3d824b06.js.map",
+    "787.4a70bc5a.chunk.js.map": "/static/js/787.4a70bc5a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7279edc5.css",
+    "static/js/main.3d824b06.js"
+  ]
+}

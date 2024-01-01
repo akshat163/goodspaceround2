@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.chat-container {
+	background-color: lightgrey;
+	display: grid;
+	/* margin: 30px auto; */
+	grid-template-rows: 5% 80% 15%;
+	flex-direction: column;
+	overflow: auto;
+	height: 50vh;
+	border-radius: 1rem;
+	margin-top: 20vh;
+
+}
+
+.chat-header {
+	display: grid;
+
+	align-items: center;
+	justify-content: center;
+	background-color: lightgrey;
+}
+/* .chat-main {
+	display: flex;
+} */
+.chat-messages {
+	/* padding: 30px; */
+	overflow: auto;
+	min-height: 81.5%;
+	/* display: flex;
+	flex-direction: column; */
+}
+
+.chat-messages .Message {
+	padding: 0.2vh 1vh 1.3vh;
+	margin-top: 2vh;
+	margin-left: 0.8vw;
+	margin-right: 0.8vw;
+	/* margin-bottom: 2%; */
+	border-radius: 1em;
+	background-color: aliceblue;
+
+}
+
+.chat-messages .Message .meta {
+	font-weight: bold;
+	opacity: 0.7;
+	margin-bottom: 2vh;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.chat-messages .Message .meta span {
+	justify-content: space-between;
+}
+
+.chat-form-container {
+	display: flex;
+	
+	flex-direction: column-reverse;
+}
+
+.chat-form {
+	margin-top: 20vh;
+	min-height: 4vh;
+}
+
+.chat-form-container form {
+	padding: 2vh;
+	display: flex;
+	overflow: auto;
+}
+
+.chat-form-container input[type='text'] {
+	padding: 1%;
+	/* height: 50%; */
+	flex: 1;
+}
+
+.chat-form-container .Send {
+	cursor: pointer;
+	padding: 0.1rem 2rem;
+	background: lavender;
+	border: 0;
+	border-radius: 0.3rem;
+}
+
+.chat-form-container .Send:hover {
+	background-color: rgb(80, 76, 76);
+	
+	box-shadow: 0 3rem 4rem 0 rgba(0,0,0,0.24), 0 4rem 5rem 0 rgba(0,0,0,0.19);
+
+}
