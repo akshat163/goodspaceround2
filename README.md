@@ -1,6 +1,10 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project for now only enables chatting like a chat room and not with open ai(chatgpt).
+A chat room is designed for chatting and adding other person.
+In future will enable chatting with openAI.
+Also not implemented mongodb due to time constraints.
 
 ## Available Scripts
 
